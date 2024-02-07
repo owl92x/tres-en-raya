@@ -27,7 +27,7 @@ let status;
 if (winner) {
   status = 'Ganador: ' + winner;
 } else {
-  status = 'Siguiente Jugador: ' + (xIsNext ? 'X' : 'O');
+  status = 'Jugador: ' + (xIsNext ? 'X' : 'O');
 }
 
 return (
